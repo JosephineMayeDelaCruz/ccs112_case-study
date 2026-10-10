@@ -1,0 +1,20 @@
+# ── Backend ──────────────────────────────────────────────────────────────────
+backend/vendor/
+backend/.env
+backend/database/database.sqlite
+backend/storage/logs/*.log
+backend/bootstrap/cache/*.php
+
+# ── Frontend ──────────────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.production
+
+# ── OS / Editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
